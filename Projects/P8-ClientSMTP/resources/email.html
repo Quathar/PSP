@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Email</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            color:brown;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #header {
+            background-color: orange;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #msg {
+            background-color:cornflowerblue;
+            color: floralwhite;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">HTML Emails</h1>
+    <img src="cid:%s" alt="Java Image"/>
+    <p id="msg">
+        This is a test to send HTML format email<br>
+        We will use some styles and an image extracted from the Internet<br>
+        <br>
+        Have a great day!<br>
+    </p>
+</body>
+</html>
